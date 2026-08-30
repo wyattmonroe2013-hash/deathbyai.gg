@@ -1,8 +1,9 @@
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="app.png" />
+    <link rel="icon" type="image/png" href="./app.png" />
     <meta
       meta
       name="viewport"
@@ -16,7 +17,6 @@
     />
     <!-- Meta Pixel Code -->
     <script>
-      alert("After you create a lobby no code will show, you need to reload the page for the code to appear. Idk why Ill fix it later.")
       !(function (f, b, e, v, n, t, s) {
         if (f.fbq) return;
         n = f.fbq = function () {
@@ -35,23 +35,6 @@
       })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
       fbq("init", "1500942658391799");
       fbq("track", "PageView");
-    </script>
-    	<script>
-      window.addEventListener('DOMContentLoaded', () => {
-        const intro = document.createElement('div')
-        intro.classList.add("gm-intro")
-    
-        const image = document.createElement('img')
-        image.src = "assets/logoo.png"
-        image.classList.add("gm-logo")
-        intro.appendChild(image)
-
-        document.body.appendChild(intro)
-
-        setTimeout(() => {
-          document.body.removeChild(intro)
-        }, 4100)
-      })
     </script>
     <!-- End Meta Pixel Code -->
     <script type="module" crossorigin src="./assets/index-3d3e41b3.js"></script>
