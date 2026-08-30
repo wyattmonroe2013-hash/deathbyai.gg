@@ -17511,14 +17511,14 @@ Use Chrome, Firefox or Internet Explorer 11`)
         function a(m, y, v) {
             if ((y[0] & 192) !== 128)
                 return m.lastNeed = 0,
-                "�";
+                " ";
             if (m.lastNeed > 1 && y.length > 1) {
                 if ((y[1] & 192) !== 128)
                     return m.lastNeed = 1,
-                    "�";
+                    " ";
                 if (m.lastNeed > 2 && y.length > 2 && (y[2] & 192) !== 128)
                     return m.lastNeed = 2,
-                    "�"
+                    " "
             }
         }
         function l(m) {
@@ -17543,7 +17543,7 @@ Use Chrome, Firefox or Internet Explorer 11`)
         }
         function u(m) {
             var y = m && m.length ? this.write(m) : "";
-            return this.lastNeed ? y + "�" : y
+            return this.lastNeed ? y + " " : y
         }
         function d(m, y) {
             if ((m.length - y) % 2 === 0) {
@@ -91535,303 +91535,303 @@ void main() {
             return n(zPe.parse(e), this.reversed)
         }
     }
-    const WPe = "/deathbyai.gg/icons/2x-survivals.svg"
-      , $Pe = "/deathbyai.gg/icons/3x-survivals.svg"
-      , YPe = "/deathbyai.gg/icons/apple-app-store-badge.svg"
-      , qPe = "/deathbyai.gg/icons/apple-icon.png"
-      , KPe = "/deathbyai.gg/icons/arrow-down-dark.svg"
-      , XPe = "/deathbyai.gg/icons/arrowDown.svg"
-      , JPe = "/deathbyai.gg/icons/audio-active-icon.png"
-      , ZPe = "/deathbyai.gg/icons/audio-inactive-icon.png"
-      , QPe = "/deathbyai.gg/icons/audio-off-icon.png"
-      , eLe = "/deathbyai.gg/icons/audio-on-icon.png"
-      , tLe = "/deathbyai.gg/icons/avatar-a.png"
-      , nLe = "/deathbyai.gg/icons/avatar-b-sku.svg"
-      , rLe = "/deathbyai.gg/icons/avatar-b.png"
-      , sLe = "/deathbyai.gg/icons/avatar-c.png"
-      , iLe = "/deathbyai.gg/icons/avatar-d.png"
-      , oLe = "/deathbyai.gg/icons/avatar-e.png"
-      , aLe = "/deathbyai.gg/icons/avatar-f.png"
-      , lLe = "/deathbyai.gg/icons/avatar-g.png"
-      , cLe = "/deathbyai.gg/icons/avatar-h.png"
-      , uLe = "/deathbyai.gg/icons/avatar-santa.png"
-      , dLe = "/deathbyai.gg/icons/avatar-toilet.png"
-      , hLe = "/deathbyai.gg/icons/avatar-paperbag.png"
-      , fLe = "/deathbyai.gg/icons/avatar-gangsta.png"
-      , pLe = "/deathbyai.gg/icons/avatar-dolandt.png"
-      , mLe = "/deathbyai.gg/icons/avatar-balloon.png"
-      , gLe = "/deathbyai.gg/icons/avatar-tube-man.png"
-      , _Le = "/deathbyai.gg/icons/avatar-robot-suit-icon.png"
-      , ELe = "/deathbyai.gg/icons/avatar-exterminator.png"
-      , SLe = "/deathbyai.gg/icons/avatar-pony.png"
-      , yLe = "/deathbyai.gg/icons/avatar-ko.png"
-      , vLe = "/deathbyai.gg/icons/avatar-mara-loft.png"
-      , ALe = "/deathbyai.gg/icons/avatar-jamboo.png"
-      , bLe = "/deathbyai.gg/icons/avatar-kill-jill.png"
-      , RLe = "/deathbyai.gg/icons/avatar-bananaguy.png"
-      , ILe = "/deathbyai.gg/images/Avatar_TaffyPirate-Preview.png"
-      , xLe = "/deathbyai.gg/icons/avatar.svg"
-      , TLe = "/deathbyai.gg/icons/blank-sku.svg"
-      , OLe = "/deathbyai.gg/icons/bolt.png"
-      , NLe = "/deathbyai.gg/icons/bonus-pack.svg"
-      , wLe = "/deathbyai.gg/iap/holiday-havoc-thumbnail.png"
-      , CLe = "/deathbyai.gg/icons/chat-bubble.svg"
-      , PLe = "/deathbyai.gg/icons/complete-check-icon.svg"
-      , LLe = "/deathbyai.gg/icons/copy-rounded-icon.png"
-      , MLe = "/deathbyai.gg/icons/create-room-indicator.svg"
-      , DLe = "/deathbyai.gg/icons/cross-circled-icon.svg"
-      , kLe = "/deathbyai.gg/icons/cross-icon.svg"
-      , ULe = "/deathbyai.gg/icons/crown.svg"
-      , BLe = "/deathbyai.gg/icons/dbai-store-banner.png"
-      , FLe = "/deathbyai.gg/icons/dbai-discord-leaderboard-banner.png"
-      , jLe = "/deathbyai.gg/icons/dbai-store-sticker.svg"
-      , HLe = "/deathbyai.gg/icons/death-life-icon.svg"
-      , GLe = "/deathbyai.gg/icons/discord-icon.svg"
-      , zLe = "/deathbyai.gg/icons/edit.svg"
-      , VLe = "/deathbyai.gg/icons/fast-arrow-right.svg"
-      , WLe = "/deathbyai.gg/icons/fast-forward-dark.svg"
-      , $Le = "/deathbyai.gg/icons/game-instructions-1.png"
-      , YLe = "/deathbyai.gg/icons/game-instructions-2.png"
-      , qLe = "/deathbyai.gg/icons/game-instructions-3.png"
-      , KLe = "/deathbyai.gg/icons/game-instructions-4.png"
-      , XLe = "/deathbyai.gg/icons/game-instructions-5.png"
-      , JLe = "/deathbyai.gg/icons/game-instructions-sm-icon.png"
-      , ZLe = "/deathbyai.gg/icons/game-instructions-icon.png"
-      , QLe = "/deathbyai.gg/icons/home-fill.png"
-      , eMe = "/deathbyai.gg/icons/home.svg"
-      , tMe = "/deathbyai.gg/icons/how-to-play-banner.png"
-      , nMe = "/deathbyai.gg/icons/how-to-play-icon.svg"
-      , rMe = "/deathbyai.gg/icons/play-asset-icon.svg"
-      , sMe = "/deathbyai.gg/icons/pause-icon.svg"
-      , iMe = "/deathbyai.gg/icons/invite-rounded.png"
-      , oMe = "/deathbyai.gg/icons/invite.svg"
-      , aMe = "/deathbyai.gg/icons/judgement-day-banner.png"
-      , lMe = "/deathbyai.gg/icons/last-day-school-sku.svg"
-      , cMe = "/deathbyai.gg/icons/left-circled-arrow.svg"
-      , uMe = "/deathbyai.gg/icons/life-icon.svg"
-      , dMe = "/deathbyai.gg/icons/lone-survivor-banner.png"
-      , hMe = "/deathbyai.gg/icons/lone-survivor-grey-icon.svg"
-      , fMe = "/deathbyai.gg/icons/lone-survivor-icon.svg"
-      , pMe = "/deathbyai.gg/icons/brotherhood-banner.png"
-      , mMe = "/deathbyai.gg/icons/brotherhood-grey-icon.svg"
-      , gMe = "/deathbyai.gg/icons/brotherhood-icon.svg"
-      , _Me = "/deathbyai.gg/icons/mission-1-pack-icon.svg"
-      , EMe = "/deathbyai.gg/icons/double-agent-banner.png"
-      , SMe = "/deathbyai.gg/icons/double-agent-grey-icon.svg"
-      , yMe = "/deathbyai.gg/icons/double-agent-icon.svg"
-      , vMe = "/deathbyai.gg/icons/megaphone-icon.svg"
-      , AMe = "/deathbyai.gg/icons/menu.png"
-      , bMe = "/deathbyai.gg/icons/outlined-arrow.svg"
-      , RMe = "/deathbyai.gg/icons/plus-icon.svg"
-      , IMe = "/deathbyai.gg/icons/premium-lock-icon.png"
-      , xMe = "/deathbyai.gg/icons/refresh.svg"
-      , TMe = "/deathbyai.gg/icons/right-arrow-circled.svg"
-      , OMe = "/deathbyai.gg/icons/robot-peeking-face.svg"
-      , NMe = "/deathbyai.gg/icons/robot-skeleton.svg"
-      , wMe = "/deathbyai.gg/icons/settings.png"
-      , CMe = "/deathbyai.gg/icons/share-rounded-icon.png"
-      , PMe = "/deathbyai.gg/icons/skull-grey-icon.svg"
-      , LMe = "/deathbyai.gg/icons/skull-icon.svg"
-      , MMe = "/deathbyai.gg/icons/slider-arrow-grey-icon.svg"
-      , DMe = "/deathbyai.gg/icons/slider-arrow-icon.svg"
-      , kMe = "/deathbyai.gg/icons/starter-pack.svg"
-      , UMe = "/deathbyai.gg/icons/store.png"
-      , BMe = "/deathbyai.gg/icons/shop.png"
-      , FMe = "/deathbyai.gg/icons/leaderboard.png"
-      , jMe = "/deathbyai.gg/icons/thought-bubble-tail.svg"
-      , HMe = "/deathbyai.gg/icons/tick-icon.svg"
-      , GMe = "/deathbyai.gg/icons/tick-rounded-icon.png"
-      , zMe = "/deathbyai.gg/icons/triangle.svg"
-      , VMe = "/deathbyai.gg/icons/winner-robot-with-a-thought.svg"
-      , WMe = "/deathbyai.gg/icons/witch-curse-sku.svg"
-      , $Me = "/deathbyai.gg/icons/youtube-icon.svg"
-      , YMe = "/deathbyai.gg/icons/zombie-apocalypse-sku.svg"
-      , qMe = "/deathbyai.gg/images/fate-revealed-eyes.svg"
-      , KMe = "/deathbyai.gg/images/fate-revealed.svg"
-      , XMe = "/deathbyai.gg/images/vortex-grey-bg.png"
-      , JMe = "/deathbyai.gg/images/vortex-purple-bg.png"
-      , ZMe = "/deathbyai.gg/images/vortex-white-bg.png"
-      , QMe = "/deathbyai.gg/images/vortex-yellow-bg.png"
-      , e2e = "/deathbyai.gg/images/vortex-blue-bg.png"
-      , t2e = "/deathbyai.gg/images/vortex-orange-bg.png"
-      , n2e = "/deathbyai.gg/images/vortex-icy-bg-v2.png"
-      , r2e = "/deathbyai.gg/games-assets/deathbyai/yvii1wso8ips4zs_v0_3v/images/Starrio_Vortex.png"
-      , s2e = "/deathbyai.gg/logos/deathbyai-beta-logo.png"
-      , i2e = "/deathbyai.gg/logos/deathbyai-beta-short-logo.svg"
-      , o2e = "/deathbyai.gg/logos/deathbyai-catchphrase.svg"
-      , a2e = "/deathbyai.gg/logos/deathbyai-grey-logo.png"
-      , l2e = "/deathbyai.gg/logos/deathbyai-logo.png"
-      , c2e = "/deathbyai.gg/logos/logo_dbai_holiday_dropshadow_v2.png"
-      , u2e = "/deathbyai.gg/logos/deathbyai-white-logo.png"
-      , d2e = "/deathbyai.gg/logos/deathbyai-yellow-catchphrase.png"
-      , h2e = "/deathbyai.gg/logos/playroom-logo.png"
-      , f2e = "/deathbyai.gg/logos/little-umbrella.png"
-      , p2e = "/deathbyai.gg/logos/powered-by-playroom.png"
-      , m2e = "/deathbyai.gg/icons/discord-server-icon.svg"
-      , g2e = "/deathbyai.gg/images/glowing-star.png"
-      , _2e = "/deathbyai.gg/icons/warning-icon.svg"
-      , E2e = "/deathbyai.gg/icons/star-icon-1.svg"
-      , S2e = "/deathbyai.gg/icons/star-icon-2.svg"
-      , y2e = "/deathbyai.gg/icons/star-icon-3.svg"
-      , v2e = "/deathbyai.gg/icons/heart-outlined.svg"
-      , A2e = "/deathbyai.gg/icons/skull-outlined.svg"
-      , b2e = "/deathbyai.gg/icons/new-iap-icon.svg"
-      , R2e = "/deathbyai.gg/icons/ai-voice-enabled-icon.svg"
-      , I2e = "/deathbyai.gg/icons/music-icon.svg"
-      , x2e = "/deathbyai.gg/icons/robot-music-icon.svg"
-      , T2e = "/deathbyai.gg/icons/info-icon.svg"
-      , O2e = "/deathbyai.gg/icons/survival-points-icon.png"
-      , N2e = "/deathbyai.gg/icons/free-ai-voice-for-weekend.png"
-      , w2e = "/deathbyai.gg/icons/dbai-lootbox-icon.svg"
-      , C2e = "/deathbyai.gg/icons/judgement-white-icon.svg"
-      , P2e = "/deathbyai.gg/icons/lone-survivor-white-icon.svg"
-      , L2e = "/deathbyai.gg/icons/brotherhood-white-icon.svg"
-      , M2e = "/deathbyai.gg/icons/double-agent-white-icon.svg"
-      , D2e = "/deathbyai.gg/icons/leaderboard-icon.svg"
-      , k2e = "/deathbyai.gg/icons/white-tick-icon.svg"
-      , U2e = "/deathbyai.gg/icons/bobbo-picker-icon.svg"
-      , B2e = "/deathbyai.gg/icons/drb-picker-icon.svg"
-      , F2e = "/deathbyai.gg/icons/bobledore-picker-icon.svg"
-      , j2e = "/deathbyai.gg/icons/dracula-picker-icon.svg"
-      , H2e = "/deathbyai.gg/icons/BobbobeardPickerIcon.png"
-      , G2e = "/deathbyai.gg/icons/glowing-blue-star.png"
-      , z2e = "/deathbyai.gg/icons/season-2-title.png"
-      , V2e = "/deathbyai.gg/icons/season-2-game-modes.png"
-      , W2e = "/deathbyai.gg/icons/season-2-personalities.png"
-      , $2e = "/deathbyai.gg/icons/season-2-rewards.png"
-      , Y2e = "/deathbyai.gg/icons/season-2-avatars.png"
-      , q2e = "/deathbyai.gg/icons/transparent-edges-glowing-star.png"
-      , K2e = "/deathbyai.gg/icons/discord-server-icon-dark.svg"
-      , X2e = "/deathbyai.gg/icons/star.png"
-      , J2e = "/deathbyai.gg/icons/star-new.png"
-      , Z2e = "/deathbyai.gg/icons/leaderboard-round-button.png"
-      , Q2e = "/deathbyai.gg/icons/game-mode-instruction-double-agent.png"
-      , eDe = "/deathbyai.gg/icons/plain-crown.svg"
-      , tDe = "/deathbyai.gg/icons/lined-arrow.svg"
-      , nDe = "/deathbyai.gg/icons/dr-b-icon.png"
-      , rDe = "/deathbyai.gg/icons/transparent-edges-green-glowing-star.png"
-      , sDe = "/deathbyai.gg/icons/opened-eye-icon.svg"
-      , iDe = "/deathbyai.gg/icons/skip-icon.svg"
-      , oDe = "/deathbyai.gg/icons/user-icon.png"
-      , aDe = "/deathbyai.gg/icons/scenario-packs-announcement.svg"
-      , lDe = "/deathbyai.gg/icons/christmas_launch_popup_v2.png"
-      , cDe = "/deathbyai.gg/icons/bod-wishlist-lobby.webp"
-      , uDe = "/deathbyai.gg/icons/bod-wishlist-main.webp"
-      , dDe = "/deathbyai.gg/images/BOD_Wishlist_Banner.png"
-      , hDe = "/deathbyai.gg/icons/youtube-icon.webp"
-      , fDe = "/deathbyai.gg/icons/steam-icon.png"
-      , pDe = "/deathbyai.gg/images/Lobby_Platform_Holiday2025-V2.png"
-      , mDe = "/deathbyai.gg/icons/green_striped_button.png"
-      , gDe = "/deathbyai.gg/images/upcoming-story-mode-announcement-dialog-box.png"
-      , _De = "/deathbyai.gg/images/TwoPiece_Vortex.png"
-      , EDe = "/deathbyai.gg/images/TwoPiece_AnnouncementDialog.png"
-      , SDe = "/deathbyai.gg/images/TwoPiece_Map_v2.png"
-      , yDe = "/deathbyai.gg/images/TwoPiece_Map-Mobile_v2.png"
-      , vDe = "/deathbyai.gg/images/TwoPiece_MapIslands.png"
-      , ADe = "/deathbyai.gg/images/TwoPiece_Ocean.png"
-      , bDe = "/deathbyai.gg/images/Texture_Ocean.png"
-      , RDe = "/deathbyai.gg/images/TwoPiece_Plank.png"
-      , IDe = "/deathbyai.gg/images/TwoPiece_Skull.png"
-      , xDe = "/deathbyai.gg/images/TwoPiece_SpeechBubble.png"
-      , TDe = "/deathbyai.gg/sprites/Spritesheet_MarmaladeIsle.png"
-      , ODe = "/deathbyai.gg/sprites/Spritesheet_PicklersPoint.png"
-      , NDe = "/deathbyai.gg/sprites/Spritesheet_MirrorLagoon.png"
-      , wDe = "/deathbyai.gg/sprites/Spritesheet_ToothyPeninsula.png"
-      , CDe = "/deathbyai.gg/sprites/Spritesheet_BoilingWaters.png"
-      , PDe = "/deathbyai.gg/sprites/Spritesheet_CacophonousCave.png"
-      , LDe = "/deathbyai.gg/sprites/Spritesheet_TopsyTides.png"
-      , MDe = "/deathbyai.gg/sprites/Spritesheet_TwoPieceReef.png"
-      , DDe = "/deathbyai.gg/games-assets/deathbyai/uorq5o2d2kq37zbf9yjvt/images/ArrivalLine-Extended-Black.png"
-      , kDe = "/deathbyai.gg/images/Weapon_Captain.png"
-      , UDe = "/deathbyai.gg/images/Weapon_Bard.png"
-      , BDe = "/deathbyai.gg/images/Weapon_Cook.png"
-      , FDe = "/deathbyai.gg/images/Weapon_FirstMate.png"
-      , jDe = "/deathbyai.gg/images/Weapon_MasterGunner.png"
-      , HDe = "/deathbyai.gg/images/Weapon_Navigator.png"
-      , GDe = "/deathbyai.gg/images/Weapon_Shipwright.png"
-      , zDe = "/deathbyai.gg/images/Weapon_Surgeon.png"
-      , VDe = "/deathbyai.gg/images/Weapon_Swordsman.png"
-      , WDe = "/deathbyai.gg/images/TwoPiece_Fail.png"
-      , $De = "/deathbyai.gg/images/TwoPiece_Pass.png"
-      , YDe = "/deathbyai.gg/images/Checkmark.png"
-      , qDe = "/deathbyai.gg/images/Checkmark_Blue.png"
-      , KDe = "/deathbyai.gg/images/Spritesheet_Boat.png"
-      , XDe = "/deathbyai.gg/images/Texture_PirateEmblem-Black.png"
-      , JDe = "/deathbyai.gg/icons/TwoPiece-Icon.svg"
-      , ZDe = "/deathbyai.gg/icons/TwoPiece-Grey-Icon.svg"
-      , QDe = "/deathbyai.gg/icons/TwoPiece-White-Icon.svg"
-      , e3e = "/deathbyai.gg/images/TwoPiece_Foreground.png"
-      , t3e = "/deathbyai.gg/images/TwoPiece_Midground.png"
-      , n3e = "/deathbyai.gg/games-assets/deathbyai/s2aekqnw_x_57ct98ulgg/images/TwoPiece_Scroll.png"
-      , r3e = "/deathbyai.gg/images/Map_Corner.png"
-      , s3e = "/deathbyai.gg/images/Question_Mark.png"
-      , i3e = "/deathbyai.gg/images/AdventurePromoIcon.png"
-      , o3e = "/deathbyai.gg/images/WhishlistOnSteam.png"
-      , a3e = "/deathbyai.gg/images/TwoPiecePromoIcon.png"
-      , l3e = "/deathbyai.gg/games-assets/deathbyai/3tscaqfnwlx6o797dg87_/images/TwoPiece_OfferThumbnail.png"
-      , c3e = "/deathbyai.gg/games-assets/deathbyai/r086cdyi1h9179m8fzgjf/images/Logo_TwoPiece.png"
-      , u3e = "/deathbyai.gg/images/TwoPiece_LaunchDialog.png"
-      , d3e = "/deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Background.png"
-      , h3e = "/deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Bobbo.png"
-      , f3e = "/deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Boat.png"
-      , p3e = "/deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Logo.png"
-      , m3e = "/deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_VoiceCredits.png"
-      , g3e = "/deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Avatar.png"
-      , _3e = "/deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Scenario.png"
-      , E3e = "/deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_MistyMushroomSystem.png"
-      , S3e = "/deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_VerdantVineNebula.png"
-      , y3e = "/deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_PyramidPiratesPlanet.png"
-      , v3e = "/deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_FrostfireComet.png"
-      , A3e = "/deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_GrimGhoulishGalaxy.png"
-      , b3e = "/deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_MeteorMetropolis.png"
-      , R3e = "/deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_PrismaticPlainsPass.png"
-      , I3e = "/deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_BruisersBlazingBrawl.png"
-      , x3e = "/deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_Rocket.png"
-      , T3e = "/deathbyai.gg/games-assets/deathbyai/cqfule2u4_b1krvjwzv1v/images/ArrowRight.png"
-      , O3e = "/deathbyai.gg/games-assets/deathbyai/_7nt_szipoy_cczp2wmqk/images/Map_DashedLines-Desktop.png"
-      , N3e = "/deathbyai.gg/games-assets/deathbyai/_7nt_szipoy_cczp2wmqk/images/Map_DashedLines-Mobile.png"
-      , w3e = "/deathbyai.gg/games-assets/deathbyai/2dps1nya3jnxq3rlc67fb/images/Starrio_ActionBorder.png"
-      , C3e = "/deathbyai.gg/games-assets/deathbyai/4b59dxuudkfg3et7h7uus/images/TwoPiece_FateRevealBanner.png"
-      , P3e = "/deathbyai.gg/games-assets/deathbyai/yvii1wso8ips4zs_v0_3v/images/Starrio_FateRevealBanner.png"
-      , L3e = "/deathbyai.gg/games-assets/deathbyai/yvii1wso8ips4zs_v0_3v/images/StarrioCosmos_Fail.png"
-      , M3e = "/deathbyai.gg/games-assets/deathbyai/yvii1wso8ips4zs_v0_3v/images/StarrioCosmos_Pass.png"
-      , D3e = "/deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_JudgementDay.png"
-      , k3e = "/deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_LoneSurvivor.png"
-      , U3e = "/deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_Brotherhood.png"
-      , B3e = "/deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_DoubleAgent.png"
-      , F3e = "/deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_TwoPiece.png"
-      , j3e = "/deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_StarrioCosmos.png"
-      , H3e = "/deathbyai.gg/games-assets/deathbyai/aakj4vopf5nt0jfuhqt6a/images/BruiserPickerIcon.png"
-      , G3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_BonkyBong.png"
-      , z3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Linguini.png"
-      , V3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_LizardWizard.png"
-      , W3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Magnolia.png"
-      , $3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_MasterShroom.png"
-      , Y3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_PrincessPapaya.png"
-      , q3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Starrio.png"
-      , K3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Troopa.png"
-      , X3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Yolky.png"
-      , J3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/StarrioCosmos-White-Icon.svg"
-      , Z3e = "/deathbyai.gg/games-assets/deathbyai/uorq5o2d2kq37zbf9yjvt/images/ArrivalLine-Extended.png"
-      , Q3e = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/StarrioCosmos_ArrivalLine2.png"
-      , eke = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Icon_Intelligence.png"
-      , tke = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Icon_Strength.png"
-      , nke = "/deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Icon_Charisma.png"
-      , rke = "/deathbyai.gg/games-assets/deathbyai/qelzqymvook50swndje2n/images/Logo_StarrioCosmos.png"
-      , ske = "/deathbyai.gg/games-assets/deathbyai/o921gj27s3q531lzlgp8v/images/StarrioCosmos_Midground.png"
-      , ike = "/deathbyai.gg/games-assets/deathbyai/o921gj27s3q531lzlgp8v/images/StarrioCosmos_Background.png"
-      , oke = "/deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/StarrioCosmos_LaunchDialog.png"
-      , ake = "/deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Background.png"
-      , lke = "/deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Bobbo.png"
-      , cke = "/deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Logo.png"
-      , uke = "/deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_VoiceCredits.png"
-      , dke = "/deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Avatar.png"
-      , hke = "/deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Scenario.png"
-      , fke = "/deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Lobby.png"
-      , pke = "/deathbyai.gg/games-assets/deathbyai/2_cs6adfvxyzl347ibl4y/images/StarrioCosmos_Banner.png"
-      , mke = "/deathbyai.gg/games-assets/deathbyai/_63kat1iuwzis667lx_56/images/Avatar_Yolky-Preview.png"
-      , gke = "/deathbyai.gg/games-assets/deathbyai/3nai1a7fg3di5yq2qj9f7/images/StarrioCosmos_Thumbnail.png"
-      , _ke = "/deathbyai.gg/games-assets/deathbyai/hbq98o2gze3r7zb_r2gq1/images/StarrioCosmos_PopupBg.png"
+    const WPe = "./deathbyai.gg/icons/2x-survivals.svg"
+      , $Pe = "./deathbyai.gg/icons/3x-survivals.svg"
+      , YPe = "./deathbyai.gg/icons/apple-app-store-badge.svg"
+      , qPe = "./deathbyai.gg/icons/apple-icon.png"
+      , KPe = "./deathbyai.gg/icons/arrow-down-dark.svg"
+      , XPe = "./deathbyai.gg/icons/arrowDown.svg"
+      , JPe = "./deathbyai.gg/icons/audio-active-icon.png"
+      , ZPe = "./deathbyai.gg/icons/audio-inactive-icon.png"
+      , QPe = "./deathbyai.gg/icons/audio-off-icon.png"
+      , eLe = "./deathbyai.gg/icons/audio-on-icon.png"
+      , tLe = "./deathbyai.gg/icons/avatar-a.png"
+      , nLe = "./deathbyai.gg/icons/avatar-b-sku.svg"
+      , rLe = "./deathbyai.gg/icons/avatar-b.png"
+      , sLe = "./deathbyai.gg/icons/avatar-c.png"
+      , iLe = "./deathbyai.gg/icons/avatar-d.png"
+      , oLe = "./deathbyai.gg/icons/avatar-e.png"
+      , aLe = "./deathbyai.gg/icons/avatar-f.png"
+      , lLe = "./deathbyai.gg/icons/avatar-g.png"
+      , cLe = "./deathbyai.gg/icons/avatar-h.png"
+      , uLe = "./deathbyai.gg/icons/avatar-santa.png"
+      , dLe = "./deathbyai.gg/icons/avatar-toilet.png"
+      , hLe = "./deathbyai.gg/icons/avatar-paperbag.png"
+      , fLe = "./deathbyai.gg/icons/avatar-gangsta.png"
+      , pLe = "./deathbyai.gg/icons/avatar-dolandt.png"
+      , mLe = "./deathbyai.gg/icons/avatar-balloon.png"
+      , gLe = "./deathbyai.gg/icons/avatar-tube-man.png"
+      , _Le = "./deathbyai.gg/icons/avatar-robot-suit-icon.png"
+      , ELe = "./deathbyai.gg/icons/avatar-exterminator.png"
+      , SLe = "./deathbyai.gg/icons/avatar-pony.png"
+      , yLe = "./deathbyai.gg/icons/avatar-ko.png"
+      , vLe = "./deathbyai.gg/icons/avatar-mara-loft.png"
+      , ALe = "./deathbyai.gg/icons/avatar-jamboo.png"
+      , bLe = "./deathbyai.gg/icons/avatar-kill-jill.png"
+      , RLe = "./deathbyai.gg/icons/avatar-bananaguy.png"
+      , ILe = "./deathbyai.gg/images/Avatar_TaffyPirate-Preview.png"
+      , xLe = "./deathbyai.gg/icons/avatar.svg"
+      , TLe = "./deathbyai.gg/icons/blank-sku.svg"
+      , OLe = "./deathbyai.gg/icons/bolt.png"
+      , NLe = "./deathbyai.gg/icons/bonus-pack.svg"
+      , wLe = "./deathbyai.gg/iap/holiday-havoc-thumbnail.png"
+      , CLe = "./deathbyai.gg/icons/chat-bubble.svg"
+      , PLe = "./deathbyai.gg/icons/complete-check-icon.svg"
+      , LLe = "./deathbyai.gg/icons/copy-rounded-icon.png"
+      , MLe = "./deathbyai.gg/icons/create-room-indicator.svg"
+      , DLe = "./deathbyai.gg/icons/cross-circled-icon.svg"
+      , kLe = "./deathbyai.gg/icons/cross-icon.svg"
+      , ULe = "./deathbyai.gg/icons/crown.svg"
+      , BLe = "./deathbyai.gg/icons/dbai-store-banner.png"
+      , FLe = "./deathbyai.gg/icons/dbai-discord-leaderboard-banner.png"
+      , jLe = "./deathbyai.gg/icons/dbai-store-sticker.svg"
+      , HLe = "./deathbyai.gg/icons/death-life-icon.svg"
+      , GLe = "./deathbyai.gg/icons/discord-icon.svg"
+      , zLe = "./deathbyai.gg/icons/edit.svg"
+      , VLe = "./deathbyai.gg/icons/fast-arrow-right.svg"
+      , WLe = "./deathbyai.gg/icons/fast-forward-dark.svg"
+      , $Le = "./deathbyai.gg/icons/game-instructions-1.png"
+      , YLe = "./deathbyai.gg/icons/game-instructions-2.png"
+      , qLe = "./deathbyai.gg/icons/game-instructions-3.png"
+      , KLe = "./deathbyai.gg/icons/game-instructions-4.png"
+      , XLe = "./deathbyai.gg/icons/game-instructions-5.png"
+      , JLe = "./deathbyai.gg/icons/game-instructions-sm-icon.png"
+      , ZLe = "./deathbyai.gg/icons/game-instructions-icon.png"
+      , QLe = "./deathbyai.gg/icons/home-fill.png"
+      , eMe = "./deathbyai.gg/icons/home.svg"
+      , tMe = "./deathbyai.gg/icons/how-to-play-banner.png"
+      , nMe = "./deathbyai.gg/icons/how-to-play-icon.svg"
+      , rMe = "./deathbyai.gg/icons/play-asset-icon.svg"
+      , sMe = "./deathbyai.gg/icons/pause-icon.svg"
+      , iMe = "./deathbyai.gg/icons/invite-rounded.png"
+      , oMe = "./deathbyai.gg/icons/invite.svg"
+      , aMe = "./deathbyai.gg/icons/judgement-day-banner.png"
+      , lMe = "./deathbyai.gg/icons/last-day-school-sku.svg"
+      , cMe = "./deathbyai.gg/icons/left-circled-arrow.svg"
+      , uMe = "./deathbyai.gg/icons/life-icon.svg"
+      , dMe = "./deathbyai.gg/icons/lone-survivor-banner.png"
+      , hMe = "./deathbyai.gg/icons/lone-survivor-grey-icon.svg"
+      , fMe = "./deathbyai.gg/icons/lone-survivor-icon.svg"
+      , pMe = "./deathbyai.gg/icons/brotherhood-banner.png"
+      , mMe = "./deathbyai.gg/icons/brotherhood-grey-icon.svg"
+      , gMe = "./deathbyai.gg/icons/brotherhood-icon.svg"
+      , _Me = "./deathbyai.gg/icons/mission-1-pack-icon.svg"
+      , EMe = "./deathbyai.gg/icons/double-agent-banner.png"
+      , SMe = "./deathbyai.gg/icons/double-agent-grey-icon.svg"
+      , yMe = "./deathbyai.gg/icons/double-agent-icon.svg"
+      , vMe = "./deathbyai.gg/icons/megaphone-icon.svg"
+      , AMe = "./deathbyai.gg/icons/menu.png"
+      , bMe = "./deathbyai.gg/icons/outlined-arrow.svg"
+      , RMe = "./deathbyai.gg/icons/plus-icon.svg"
+      , IMe = "./deathbyai.gg/icons/premium-lock-icon.png"
+      , xMe = "./deathbyai.gg/icons/refresh.svg"
+      , TMe = "./deathbyai.gg/icons/right-arrow-circled.svg"
+      , OMe = "./deathbyai.gg/icons/robot-peeking-face.svg"
+      , NMe = "./deathbyai.gg/icons/robot-skeleton.svg"
+      , wMe = "./deathbyai.gg/icons/settings.png"
+      , CMe = "./deathbyai.gg/icons/share-rounded-icon.png"
+      , PMe = "./deathbyai.gg/icons/skull-grey-icon.svg"
+      , LMe = "./deathbyai.gg/icons/skull-icon.svg"
+      , MMe = "./deathbyai.gg/icons/slider-arrow-grey-icon.svg"
+      , DMe = "./deathbyai.gg/icons/slider-arrow-icon.svg"
+      , kMe = "./deathbyai.gg/icons/starter-pack.svg"
+      , UMe = "./deathbyai.gg/icons/store.png"
+      , BMe = "./deathbyai.gg/icons/shop.png"
+      , FMe = "./deathbyai.gg/icons/leaderboard.png"
+      , jMe = "./deathbyai.gg/icons/thought-bubble-tail.svg"
+      , HMe = "./deathbyai.gg/icons/tick-icon.svg"
+      , GMe = "./deathbyai.gg/icons/tick-rounded-icon.png"
+      , zMe = "./deathbyai.gg/icons/triangle.svg"
+      , VMe = "./deathbyai.gg/icons/winner-robot-with-a-thought.svg"
+      , WMe = "./deathbyai.gg/icons/witch-curse-sku.svg"
+      , $Me = "./deathbyai.gg/icons/youtube-icon.svg"
+      , YMe = "./deathbyai.gg/icons/zombie-apocalypse-sku.svg"
+      , qMe = "./deathbyai.gg/images/fate-revealed-eyes.svg"
+      , KMe = "./deathbyai.gg/images/fate-revealed.svg"
+      , XMe = "./deathbyai.gg/images/vortex-grey-bg.png"
+      , JMe = "./deathbyai.gg/images/vortex-purple-bg.png"
+      , ZMe = "./deathbyai.gg/images/vortex-white-bg.png"
+      , QMe = "./deathbyai.gg/images/vortex-yellow-bg.png"
+      , e2e = "./deathbyai.gg/images/vortex-blue-bg.png"
+      , t2e = "./deathbyai.gg/images/vortex-orange-bg.png"
+      , n2e = "./deathbyai.gg/images/vortex-icy-bg-v2.png"
+      , r2e = "./deathbyai.gg/games-assets/deathbyai/yvii1wso8ips4zs_v0_3v/images/Starrio_Vortex.png"
+      , s2e = "./deathbyai.gg/logos/deathbyai-beta-logo.png"
+      , i2e = "./deathbyai.gg/logos/deathbyai-beta-short-logo.svg"
+      , o2e = "./deathbyai.gg/logos/deathbyai-catchphrase.svg"
+      , a2e = "./deathbyai.gg/logos/deathbyai-grey-logo.png"
+      , l2e = "./deathbyai.gg/logos/deathbyai-logo.png"
+      , c2e = "./deathbyai.gg/logos/logo_dbai_holiday_dropshadow_v2.png"
+      , u2e = "./deathbyai.gg/logos/deathbyai-white-logo.png"
+      , d2e = "./deathbyai.gg/logos/deathbyai-yellow-catchphrase.png"
+      , h2e = "./deathbyai.gg/logos/playroom-logo.png"
+      , f2e = "./deathbyai.gg/logos/little-umbrella.png"
+      , p2e = "./deathbyai.gg/logos/powered-by-playroom.png"
+      , m2e = "./deathbyai.gg/icons/discord-server-icon.svg"
+      , g2e = "./deathbyai.gg/images/glowing-star.png"
+      , _2e = "./deathbyai.gg/icons/warning-icon.svg"
+      , E2e = "./deathbyai.gg/icons/star-icon-1.svg"
+      , S2e = "./deathbyai.gg/icons/star-icon-2.svg"
+      , y2e = "./deathbyai.gg/icons/star-icon-3.svg"
+      , v2e = "./deathbyai.gg/icons/heart-outlined.svg"
+      , A2e = "./deathbyai.gg/icons/skull-outlined.svg"
+      , b2e = "./deathbyai.gg/icons/new-iap-icon.svg"
+      , R2e = "./deathbyai.gg/icons/ai-voice-enabled-icon.svg"
+      , I2e = "./deathbyai.gg/icons/music-icon.svg"
+      , x2e = "./deathbyai.gg/icons/robot-music-icon.svg"
+      , T2e = "./deathbyai.gg/icons/info-icon.svg"
+      , O2e = "./deathbyai.gg/icons/survival-points-icon.png"
+      , N2e = "./deathbyai.gg/icons/free-ai-voice-for-weekend.png"
+      , w2e = "./deathbyai.gg/icons/dbai-lootbox-icon.svg"
+      , C2e = "./deathbyai.gg/icons/judgement-white-icon.svg"
+      , P2e = "./deathbyai.gg/icons/lone-survivor-white-icon.svg"
+      , L2e = "./deathbyai.gg/icons/brotherhood-white-icon.svg"
+      , M2e = "./deathbyai.gg/icons/double-agent-white-icon.svg"
+      , D2e = "./deathbyai.gg/icons/leaderboard-icon.svg"
+      , k2e = "./deathbyai.gg/icons/white-tick-icon.svg"
+      , U2e = "./deathbyai.gg/icons/bobbo-picker-icon.svg"
+      , B2e = "./deathbyai.gg/icons/drb-picker-icon.svg"
+      , F2e = "./deathbyai.gg/icons/bobledore-picker-icon.svg"
+      , j2e = "./deathbyai.gg/icons/dracula-picker-icon.svg"
+      , H2e = "./deathbyai.gg/icons/BobbobeardPickerIcon.png"
+      , G2e = "./deathbyai.gg/icons/glowing-blue-star.png"
+      , z2e = "./deathbyai.gg/icons/season-2-title.png"
+      , V2e = "./deathbyai.gg/icons/season-2-game-modes.png"
+      , W2e = "./deathbyai.gg/icons/season-2-personalities.png"
+      , $2e = "./deathbyai.gg/icons/season-2-rewards.png"
+      , Y2e = "./deathbyai.gg/icons/season-2-avatars.png"
+      , q2e = "./deathbyai.gg/icons/transparent-edges-glowing-star.png"
+      , K2e = "./deathbyai.gg/icons/discord-server-icon-dark.svg"
+      , X2e = "./deathbyai.gg/icons/star.png"
+      , J2e = "./deathbyai.gg/icons/star-new.png"
+      , Z2e = "./deathbyai.gg/icons/leaderboard-round-button.png"
+      , Q2e = "./deathbyai.gg/icons/game-mode-instruction-double-agent.png"
+      , eDe = "./deathbyai.gg/icons/plain-crown.svg"
+      , tDe = "./deathbyai.gg/icons/lined-arrow.svg"
+      , nDe = "./deathbyai.gg/icons/dr-b-icon.png"
+      , rDe = "./deathbyai.gg/icons/transparent-edges-green-glowing-star.png"
+      , sDe = "./deathbyai.gg/icons/opened-eye-icon.svg"
+      , iDe = "./deathbyai.gg/icons/skip-icon.svg"
+      , oDe = "./deathbyai.gg/icons/user-icon.png"
+      , aDe = "./deathbyai.gg/icons/scenario-packs-announcement.svg"
+      , lDe = "./deathbyai.gg/icons/christmas_launch_popup_v2.png"
+      , cDe = "./deathbyai.gg/icons/bod-wishlist-lobby.webp"
+      , uDe = "./deathbyai.gg/icons/bod-wishlist-main.webp"
+      , dDe = "./deathbyai.gg/images/BOD_Wishlist_Banner.png"
+      , hDe = "./deathbyai.gg/icons/youtube-icon.webp"
+      , fDe = "./deathbyai.gg/icons/steam-icon.png"
+      , pDe = "./deathbyai.gg/images/Lobby_Platform_Holiday2025-V2.png"
+      , mDe = "./deathbyai.gg/icons/green_striped_button.png"
+      , gDe = "./deathbyai.gg/images/upcoming-story-mode-announcement-dialog-box.png"
+      , _De = "./deathbyai.gg/images/TwoPiece_Vortex.png"
+      , EDe = "./deathbyai.gg/images/TwoPiece_AnnouncementDialog.png"
+      , SDe = "./deathbyai.gg/images/TwoPiece_Map_v2.png"
+      , yDe = "./deathbyai.gg/images/TwoPiece_Map-Mobile_v2.png"
+      , vDe = "./deathbyai.gg/images/TwoPiece_MapIslands.png"
+      , ADe = "./deathbyai.gg/images/TwoPiece_Ocean.png"
+      , bDe = "./deathbyai.gg/images/Texture_Ocean.png"
+      , RDe = "./deathbyai.gg/images/TwoPiece_Plank.png"
+      , IDe = "./deathbyai.gg/images/TwoPiece_Skull.png"
+      , xDe = "./deathbyai.gg/images/TwoPiece_SpeechBubble.png"
+      , TDe = "./deathbyai.gg/sprites/Spritesheet_MarmaladeIsle.png"
+      , ODe = "./deathbyai.gg/sprites/Spritesheet_PicklersPoint.png"
+      , NDe = "./deathbyai.gg/sprites/Spritesheet_MirrorLagoon.png"
+      , wDe = "./deathbyai.gg/sprites/Spritesheet_ToothyPeninsula.png"
+      , CDe = "./deathbyai.gg/sprites/Spritesheet_BoilingWaters.png"
+      , PDe = "./deathbyai.gg/sprites/Spritesheet_CacophonousCave.png"
+      , LDe = "./deathbyai.gg/sprites/Spritesheet_TopsyTides.png"
+      , MDe = "./deathbyai.gg/sprites/Spritesheet_TwoPieceReef.png"
+      , DDe = "./deathbyai.gg/games-assets/deathbyai/uorq5o2d2kq37zbf9yjvt/images/ArrivalLine-Extended-Black.png"
+      , kDe = "./deathbyai.gg/images/Weapon_Captain.png"
+      , UDe = "./deathbyai.gg/images/Weapon_Bard.png"
+      , BDe = "./deathbyai.gg/images/Weapon_Cook.png"
+      , FDe = "./deathbyai.gg/images/Weapon_FirstMate.png"
+      , jDe = "./deathbyai.gg/images/Weapon_MasterGunner.png"
+      , HDe = "./deathbyai.gg/images/Weapon_Navigator.png"
+      , GDe = "./deathbyai.gg/images/Weapon_Shipwright.png"
+      , zDe = "./deathbyai.gg/images/Weapon_Surgeon.png"
+      , VDe = "./deathbyai.gg/images/Weapon_Swordsman.png"
+      , WDe = "./deathbyai.gg/images/TwoPiece_Fail.png"
+      , $De = "./deathbyai.gg/images/TwoPiece_Pass.png"
+      , YDe = "./deathbyai.gg/images/Checkmark.png"
+      , qDe = "./deathbyai.gg/images/Checkmark_Blue.png"
+      , KDe = "./deathbyai.gg/images/Spritesheet_Boat.png"
+      , XDe = "./deathbyai.gg/images/Texture_PirateEmblem-Black.png"
+      , JDe = "./deathbyai.gg/icons/TwoPiece-Icon.svg"
+      , ZDe = "./deathbyai.gg/icons/TwoPiece-Grey-Icon.svg"
+      , QDe = "./deathbyai.gg/icons/TwoPiece-White-Icon.svg"
+      , e3e = "./deathbyai.gg/images/TwoPiece_Foreground.png"
+      , t3e = "./deathbyai.gg/images/TwoPiece_Midground.png"
+      , n3e = "./deathbyai.gg/games-assets/deathbyai/s2aekqnw_x_57ct98ulgg/images/TwoPiece_Scroll.png"
+      , r3e = "./deathbyai.gg/images/Map_Corner.png"
+      , s3e = "./deathbyai.gg/images/Question_Mark.png"
+      , i3e = "./deathbyai.gg/images/AdventurePromoIcon.png"
+      , o3e = "./deathbyai.gg/images/WhishlistOnSteam.png"
+      , a3e = "./deathbyai.gg/images/TwoPiecePromoIcon.png"
+      , l3e = "./deathbyai.gg/games-assets/deathbyai/3tscaqfnwlx6o797dg87_/images/TwoPiece_OfferThumbnail.png"
+      , c3e = "./deathbyai.gg/games-assets/deathbyai/r086cdyi1h9179m8fzgjf/images/Logo_TwoPiece.png"
+      , u3e = "./deathbyai.gg/images/TwoPiece_LaunchDialog.png"
+      , d3e = "./deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Background.png"
+      , h3e = "./deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Bobbo.png"
+      , f3e = "./deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Boat.png"
+      , p3e = "./deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Logo.png"
+      , m3e = "./deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_VoiceCredits.png"
+      , g3e = "./deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Avatar.png"
+      , _3e = "./deathbyai.gg/games-assets/deathbyai/ic_vh2yhjibkuk5ry3l76/images/TwoPiece_TryNow_Scenario.png"
+      , E3e = "./deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_MistyMushroomSystem.png"
+      , S3e = "./deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_VerdantVineNebula.png"
+      , y3e = "./deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_PyramidPiratesPlanet.png"
+      , v3e = "./deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_FrostfireComet.png"
+      , A3e = "./deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_GrimGhoulishGalaxy.png"
+      , b3e = "./deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_MeteorMetropolis.png"
+      , R3e = "./deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_PrismaticPlainsPass.png"
+      , I3e = "./deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_BruisersBlazingBrawl.png"
+      , x3e = "./deathbyai.gg/games-assets/deathbyai/ynut1sgbt_vqoatad6atx/images/Spritesheet_Rocket.png"
+      , T3e = "./deathbyai.gg/games-assets/deathbyai/cqfule2u4_b1krvjwzv1v/images/ArrowRight.png"
+      , O3e = "./deathbyai.gg/games-assets/deathbyai/_7nt_szipoy_cczp2wmqk/images/Map_DashedLines-Desktop.png"
+      , N3e = "./deathbyai.gg/games-assets/deathbyai/_7nt_szipoy_cczp2wmqk/images/Map_DashedLines-Mobile.png"
+      , w3e = "./deathbyai.gg/games-assets/deathbyai/2dps1nya3jnxq3rlc67fb/images/Starrio_ActionBorder.png"
+      , C3e = "./deathbyai.gg/games-assets/deathbyai/4b59dxuudkfg3et7h7uus/images/TwoPiece_FateRevealBanner.png"
+      , P3e = "./deathbyai.gg/games-assets/deathbyai/yvii1wso8ips4zs_v0_3v/images/Starrio_FateRevealBanner.png"
+      , L3e = "./deathbyai.gg/games-assets/deathbyai/yvii1wso8ips4zs_v0_3v/images/StarrioCosmos_Fail.png"
+      , M3e = "./deathbyai.gg/games-assets/deathbyai/yvii1wso8ips4zs_v0_3v/images/StarrioCosmos_Pass.png"
+      , D3e = "./deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_JudgementDay.png"
+      , k3e = "./deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_LoneSurvivor.png"
+      , U3e = "./deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_Brotherhood.png"
+      , B3e = "./deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_DoubleAgent.png"
+      , F3e = "./deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_TwoPiece.png"
+      , j3e = "./deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/Poster_StarrioCosmos.png"
+      , H3e = "./deathbyai.gg/games-assets/deathbyai/aakj4vopf5nt0jfuhqt6a/images/BruiserPickerIcon.png"
+      , G3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_BonkyBong.png"
+      , z3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Linguini.png"
+      , V3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_LizardWizard.png"
+      , W3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Magnolia.png"
+      , $3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_MasterShroom.png"
+      , Y3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_PrincessPapaya.png"
+      , q3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Starrio.png"
+      , K3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Troopa.png"
+      , X3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Ability_Yolky.png"
+      , J3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/StarrioCosmos-White-Icon.svg"
+      , Z3e = "./deathbyai.gg/games-assets/deathbyai/uorq5o2d2kq37zbf9yjvt/images/ArrivalLine-Extended.png"
+      , Q3e = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/StarrioCosmos_ArrivalLine2.png"
+      , eke = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Icon_Intelligence.png"
+      , tke = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Icon_Strength.png"
+      , nke = "./deathbyai.gg/games-assets/deathbyai/h43iuovv7x4lt_k3xt_95/images/Icon_Charisma.png"
+      , rke = "./deathbyai.gg/games-assets/deathbyai/qelzqymvook50swndje2n/images/Logo_StarrioCosmos.png"
+      , ske = "./deathbyai.gg/games-assets/deathbyai/o921gj27s3q531lzlgp8v/images/StarrioCosmos_Midground.png"
+      , ike = "./deathbyai.gg/games-assets/deathbyai/o921gj27s3q531lzlgp8v/images/StarrioCosmos_Background.png"
+      , oke = "./deathbyai.gg/games-assets/deathbyai/bb7plnk9jqc15b8uzsj98/images/StarrioCosmos_LaunchDialog.png"
+      , ake = "./deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Background.png"
+      , lke = "./deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Bobbo.png"
+      , cke = "./deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Logo.png"
+      , uke = "./deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_VoiceCredits.png"
+      , dke = "./deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Avatar.png"
+      , hke = "./deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Scenario.png"
+      , fke = "./deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/images/StarrioCosmos_TryNow_Lobby.png"
+      , pke = "./deathbyai.gg/games-assets/deathbyai/2_cs6adfvxyzl347ibl4y/images/StarrioCosmos_Banner.png"
+      , mke = "./deathbyai.gg/games-assets/deathbyai/_63kat1iuwzis667lx_56/images/Avatar_Yolky-Preview.png"
+      , gke = "./deathbyai.gg/games-assets/deathbyai/3nai1a7fg3di5yq2qj9f7/images/StarrioCosmos_Thumbnail.png"
+      , _ke = "./deathbyai.gg/games-assets/deathbyai/hbq98o2gze3r7zb_r2gq1/images/StarrioCosmos_PopupBg.png"
       , le = {
         AppLogo: l2e,
         AppLogoChristmas: c2e,
@@ -92209,80 +92209,80 @@ void main() {
         StarrioCosmos_Cage: "StarrioCosmos_Cage"
     }
       , Ir = {
-        [oe.AvatarA]: "/deathbyai.gg/models/Avatar-A.gltf",
-        [oe.AvatarB]: "/deathbyai.gg/models/Avatar-B.gltf",
-        [oe.AvatarC]: "/deathbyai.gg/models/Avatar-C.gltf",
-        [oe.AvatarD]: "/deathbyai.gg/models/Avatar-D.gltf",
-        [oe.AvatarE]: "/deathbyai.gg/models/Avatar-E.gltf",
-        [oe.AvatarF]: "/deathbyai.gg/models/Avatar-F.gltf",
-        [oe.AvatarG]: "/deathbyai.gg/models/Avatar-G.gltf",
-        [oe.AvatarH]: "/deathbyai.gg/models/Avatar-H.gltf",
-        [oe.AvatarSanta]: "/deathbyai.gg/models/Avatar-Santa.gltf",
-        [oe.AvatarTaffy]: "/deathbyai.gg/models/Avatar_TaffyPirate_v2.glb",
-        [oe.AvatarYolky]: "/deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/models/Avatar_Yolky.glb",
-        [oe.AvatarToilet]: "/deathbyai.gg/models/Avatar-Toilet.glb",
-        [oe.AvatarGangsta]: "/deathbyai.gg/models/Avatar-Gangsta.glb",
-        [oe.AvatarPaperbag]: "/deathbyai.gg/models/Avatar-Paperbag.glb",
-        [oe.AvatarDoland]: "/deathbyai.gg/models/Avatar-Doland_T.glb",
-        [oe.AvatarBalloon]: "/deathbyai.gg/models/Avatar-Balloon.glb",
-        [oe.AvatarTubeMan]: "/deathbyai.gg/models/Avatar-Tube-Man.glb",
-        [oe.AvatarDisguised]: "/deathbyai.gg/models/Avatar-DisguiseRobot.glb",
-        [oe.AvatarExterminator]: "/deathbyai.gg/models/Avatar-Exterminator.glb",
-        [oe.AvatarPony]: "/deathbyai.gg/models/Avatar-Pony.glb",
-        [oe.AvatarKo]: "/deathbyai.gg/models/Avatar-KO.glb",
-        [oe.AvatarMaraLoft]: "/deathbyai.gg/models/Avatar-Mara-Loft.glb",
-        [oe.AvatarJambo]: "/deathbyai.gg/models/Avatar-Jambo.glb",
-        [oe.AvatarKilljill]: "/deathbyai.gg/models/Avatar-Killjill.glb",
-        [oe.AvatarBananaGuy]: "/deathbyai.gg/models/Avatar_BananaGuy.glb",
-        [oe.AvatarSelectionRobot]: "/deathbyai.gg/models/Lobby-Avatar-Selection.gltf",
-        [oe.MainMenu]: "/deathbyai.gg/models/Main-Menu.gltf",
-        [oe.LobbyRobot]: "/deathbyai.gg/models/Lobby-Robot.gltf",
-        [oe.StrategyRobotMobile]: "/deathbyai.gg/models/Strategy-Reveal-Robot-Mobile.gltf",
-        [oe.StrategyRobotDesktop]: "/deathbyai.gg/models/Strategy-Reveal-Robot-Desktop.gltf",
-        [oe.FateRobot]: "/deathbyai.gg/games-assets/deathbyai/p4wbnqvl2dvpy58_bo7xz/models/Fate-Reveal-Robot-V2.glb",
-        [oe.BrotherhoodFlag]: "/deathbyai.gg/models/Brotherhood-Flag.glb",
-        [oe.DBAILootbox]: "/deathbyai.gg/models/DBAI-LootBox.glb",
-        [oe.BobledoreHat]: "/deathbyai.gg/models/Bobledore-Hat.glb",
-        [oe.BobledoreBeard]: "/deathbyai.gg/models/Bobledore-Beard.glb",
-        [oe.BobledoreCloak]: "/deathbyai.gg/models/Bobledore-Cloak.glb",
-        [oe.BobledoreNecklace]: "/deathbyai.gg/models/Bobledore-Necklace.glb",
-        [oe.BobledoreStaff]: "/deathbyai.gg/models/Bobledore-Staff.glb",
-        [oe.BobledoreWand]: "/deathbyai.gg/models/Bobledore-Wand.glb",
-        [oe.DrBGlasses]: "/deathbyai.gg/models/DrB-Glasses.glb",
-        [oe.DrBHair]: "/deathbyai.gg/models/DrB-Hair.glb",
-        [oe.DrBJoint]: "/deathbyai.gg/models/DrB-Joint.glb",
-        [oe.DrBNecklace]: "/deathbyai.gg/models/DrB-Necklace.glb",
-        [oe.DrBTshirt]: "/deathbyai.gg/models/DrB-Tshirt.glb",
-        [oe.PlatformBook]: "/deathbyai.gg/models/Platform-Book.glb",
-        [oe.PlatformSpeaker]: "/deathbyai.gg/models/Platform-Speaker.glb",
-        [oe.PlatformChristmas]: "/deathbyai.gg/models/Lobby_Platform_Holiday2025.glb",
-        [oe.AvatarImposter]: "/deathbyai.gg/models/Avatar-Imposter.glb",
-        [oe.DraculaHead]: "/deathbyai.gg/models/Dracula-Head.glb",
-        [oe.DraculaGown]: "/deathbyai.gg/models/Dracula-Gown.glb",
-        [oe.Snowflake01]: "/deathbyai.gg/models/snowflake01.glb",
-        [oe.Snowflake02]: "/deathbyai.gg/models/snowflake02.glb",
-        [oe.ChristmasBobboLights]: "/deathbyai.gg/models/Bob_Holiday2025_Accessories-V3.glb",
-        [oe.SantaHat]: "/deathbyai.gg/models/SantaHat_v2.glb",
-        [oe.LandingBow]: "/deathbyai.gg/models/landing_bow.glb",
-        [oe.TwoPiecePlank]: "/deathbyai.gg/models/TwoPiece_Plank.glb",
-        [oe.TwoPieceBoat]: "/deathbyai.gg/models/TwoPiece_Boat_v2.glb",
-        [oe.TwoPieceLobbyIsland]: "/deathbyai.gg/models/TwoPiece_Lobby_v4.glb",
-        [oe.TwoPiecePirateProps]: "/deathbyai.gg/models/TwoPiece_PirateProps.glb",
-        [oe.TwoPiecePirateBody]: "/deathbyai.gg/models/TwoPiece_PirateBody.glb",
-        [oe.TwoPieceParrot]: "/deathbyai.gg/models/TwoPiece_Parrot.glb",
-        [oe.GoldCoin]: "/deathbyai.gg/models/GoldCoin.glb",
-        [oe.TreasureChest]: "/deathbyai.gg/models/TwoPiece_TreasureChest.glb",
-        [oe.BruiserHeadProps]: "/deathbyai.gg/games-assets/deathbyai/rjza57a16a47p3sp2kbsb/models/Bruiser_HeadProps.glb",
-        [oe.BruiserWristLeft]: "/deathbyai.gg/games-assets/deathbyai/rjza57a16a47p3sp2kbsb/models/Bruiser_WristL.glb",
-        [oe.BruiserWristRight]: "/deathbyai.gg/games-assets/deathbyai/rjza57a16a47p3sp2kbsb/models/Bruiser_WristR.glb",
-        [oe.StarrioCosmosLobbyPlatform]: "/deathbyai.gg/games-assets/deathbyai/rjza57a16a47p3sp2kbsb/models/StarrioCosmos_LobbyPlatform.glb",
-        [oe.StarrioCosmosRocket]: "/deathbyai.gg/games-assets/deathbyai/qelzqymvook50swndje2n/models/StarrioCosmos_Rocket.glb",
-        [oe.StarrioCosmosRocketTether]: "/deathbyai.gg/games-assets/deathbyai/2v8j7onub8b2h5vtg4wpc/models/StarrioCosmos_RocketTether.glb",
-        [oe.StarrioCosmos_Star1]: "/deathbyai.gg/games-assets/deathbyai/9bltnum6hx5_z9zgagh4_/models/StarrioCosmos_Star1.glb",
-        [oe.StarrioCosmos_Star2]: "/deathbyai.gg/games-assets/deathbyai/9bltnum6hx5_z9zgagh4_/models/StarrioCosmos_Star2.glb",
-        [oe.StarrioCosmos_Star3]: "/deathbyai.gg/games-assets/deathbyai/9bltnum6hx5_z9zgagh4_/models/StarrioCosmos_Star3.glb",
-        [oe.StarrioCosmos_Star4]: "/deathbyai.gg/games-assets/deathbyai/9bltnum6hx5_z9zgagh4_/models/StarrioCosmos_Star4.glb",
-        [oe.StarrioCosmos_Cage]: "/deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/models/StarrioCosmos_Cage.glb"
+        [oe.AvatarA]: "./deathbyai.gg/models/Avatar-A.gltf",
+        [oe.AvatarB]: "./deathbyai.gg/models/Avatar-B.gltf",
+        [oe.AvatarC]: "./deathbyai.gg/models/Avatar-C.gltf",
+        [oe.AvatarD]: "./deathbyai.gg/models/Avatar-D.gltf",
+        [oe.AvatarE]: "./deathbyai.gg/models/Avatar-E.gltf",
+        [oe.AvatarF]: "./deathbyai.gg/models/Avatar-F.gltf",
+        [oe.AvatarG]: "./deathbyai.gg/models/Avatar-G.gltf",
+        [oe.AvatarH]: "./deathbyai.gg/models/Avatar-H.gltf",
+        [oe.AvatarSanta]: "./deathbyai.gg/models/Avatar-Santa.gltf",
+        [oe.AvatarTaffy]: "./deathbyai.gg/models/Avatar_TaffyPirate_v2.glb",
+        [oe.AvatarYolky]: "./deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/models/Avatar_Yolky.glb",
+        [oe.AvatarToilet]: "./deathbyai.gg/models/Avatar-Toilet.glb",
+        [oe.AvatarGangsta]: "./deathbyai.gg/models/Avatar-Gangsta.glb",
+        [oe.AvatarPaperbag]: "./deathbyai.gg/models/Avatar-Paperbag.glb",
+        [oe.AvatarDoland]: "./deathbyai.gg/models/Avatar-Doland_T.glb",
+        [oe.AvatarBalloon]: "./deathbyai.gg/models/Avatar-Balloon.glb",
+        [oe.AvatarTubeMan]: "./deathbyai.gg/models/Avatar-Tube-Man.glb",
+        [oe.AvatarDisguised]: "./deathbyai.gg/models/Avatar-DisguiseRobot.glb",
+        [oe.AvatarExterminator]: "./deathbyai.gg/models/Avatar-Exterminator.glb",
+        [oe.AvatarPony]: "./deathbyai.gg/models/Avatar-Pony.glb",
+        [oe.AvatarKo]: "./deathbyai.gg/models/Avatar-KO.glb",
+        [oe.AvatarMaraLoft]: "./deathbyai.gg/models/Avatar-Mara-Loft.glb",
+        [oe.AvatarJambo]: "./deathbyai.gg/models/Avatar-Jambo.glb",
+        [oe.AvatarKilljill]: "./deathbyai.gg/models/Avatar-Killjill.glb",
+        [oe.AvatarBananaGuy]: "./deathbyai.gg/models/Avatar_BananaGuy.glb",
+        [oe.AvatarSelectionRobot]: "./deathbyai.gg/models/Lobby-Avatar-Selection.gltf",
+        [oe.MainMenu]: "./deathbyai.gg/models/Main-Menu.gltf",
+        [oe.LobbyRobot]: "./deathbyai.gg/models/Lobby-Robot.gltf",
+        [oe.StrategyRobotMobile]: "./deathbyai.gg/models/Strategy-Reveal-Robot-Mobile.gltf",
+        [oe.StrategyRobotDesktop]: "./deathbyai.gg/models/Strategy-Reveal-Robot-Desktop.gltf",
+        [oe.FateRobot]: "./deathbyai.gg/games-assets/deathbyai/p4wbnqvl2dvpy58_bo7xz/models/Fate-Reveal-Robot-V2.glb",
+        [oe.BrotherhoodFlag]: "./deathbyai.gg/models/Brotherhood-Flag.glb",
+        [oe.DBAILootbox]: "./deathbyai.gg/models/DBAI-LootBox.glb",
+        [oe.BobledoreHat]: "./deathbyai.gg/models/Bobledore-Hat.glb",
+        [oe.BobledoreBeard]: "./deathbyai.gg/models/Bobledore-Beard.glb",
+        [oe.BobledoreCloak]: "./deathbyai.gg/models/Bobledore-Cloak.glb",
+        [oe.BobledoreNecklace]: "./deathbyai.gg/models/Bobledore-Necklace.glb",
+        [oe.BobledoreStaff]: "./deathbyai.gg/models/Bobledore-Staff.glb",
+        [oe.BobledoreWand]: "./deathbyai.gg/models/Bobledore-Wand.glb",
+        [oe.DrBGlasses]: "./deathbyai.gg/models/DrB-Glasses.glb",
+        [oe.DrBHair]: "./deathbyai.gg/models/DrB-Hair.glb",
+        [oe.DrBJoint]: "./deathbyai.gg/models/DrB-Joint.glb",
+        [oe.DrBNecklace]: "./deathbyai.gg/models/DrB-Necklace.glb",
+        [oe.DrBTshirt]: "./deathbyai.gg/models/DrB-Tshirt.glb",
+        [oe.PlatformBook]: "./deathbyai.gg/models/Platform-Book.glb",
+        [oe.PlatformSpeaker]: "./deathbyai.gg/models/Platform-Speaker.glb",
+        [oe.PlatformChristmas]: "./deathbyai.gg/models/Lobby_Platform_Holiday2025.glb",
+        [oe.AvatarImposter]: "./deathbyai.gg/models/Avatar-Imposter.glb",
+        [oe.DraculaHead]: "./deathbyai.gg/models/Dracula-Head.glb",
+        [oe.DraculaGown]: "./deathbyai.gg/models/Dracula-Gown.glb",
+        [oe.Snowflake01]: "./deathbyai.gg/models/snowflake01.glb",
+        [oe.Snowflake02]: "./deathbyai.gg/models/snowflake02.glb",
+        [oe.ChristmasBobboLights]: "./deathbyai.gg/models/Bob_Holiday2025_Accessories-V3.glb",
+        [oe.SantaHat]: "./deathbyai.gg/models/SantaHat_v2.glb",
+        [oe.LandingBow]: "./deathbyai.gg/models/landing_bow.glb",
+        [oe.TwoPiecePlank]: "./deathbyai.gg/models/TwoPiece_Plank.glb",
+        [oe.TwoPieceBoat]: "./deathbyai.gg/models/TwoPiece_Boat_v2.glb",
+        [oe.TwoPieceLobbyIsland]: "./deathbyai.gg/models/TwoPiece_Lobby_v4.glb",
+        [oe.TwoPiecePirateProps]: "./deathbyai.gg/models/TwoPiece_PirateProps.glb",
+        [oe.TwoPiecePirateBody]: "./deathbyai.gg/models/TwoPiece_PirateBody.glb",
+        [oe.TwoPieceParrot]: "./deathbyai.gg/models/TwoPiece_Parrot.glb",
+        [oe.GoldCoin]: "./deathbyai.gg/models/GoldCoin.glb",
+        [oe.TreasureChest]: "./deathbyai.gg/models/TwoPiece_TreasureChest.glb",
+        [oe.BruiserHeadProps]: "./deathbyai.gg/games-assets/deathbyai/rjza57a16a47p3sp2kbsb/models/Bruiser_HeadProps.glb",
+        [oe.BruiserWristLeft]: "./deathbyai.gg/games-assets/deathbyai/rjza57a16a47p3sp2kbsb/models/Bruiser_WristL.glb",
+        [oe.BruiserWristRight]: "./deathbyai.gg/games-assets/deathbyai/rjza57a16a47p3sp2kbsb/models/Bruiser_WristR.glb",
+        [oe.StarrioCosmosLobbyPlatform]: "./deathbyai.gg/games-assets/deathbyai/rjza57a16a47p3sp2kbsb/models/StarrioCosmos_LobbyPlatform.glb",
+        [oe.StarrioCosmosRocket]: "./deathbyai.gg/games-assets/deathbyai/qelzqymvook50swndje2n/models/StarrioCosmos_Rocket.glb",
+        [oe.StarrioCosmosRocketTether]: "./deathbyai.gg/games-assets/deathbyai/2v8j7onub8b2h5vtg4wpc/models/StarrioCosmos_RocketTether.glb",
+        [oe.StarrioCosmos_Star1]: "./deathbyai.gg/games-assets/deathbyai/9bltnum6hx5_z9zgagh4_/models/StarrioCosmos_Star1.glb",
+        [oe.StarrioCosmos_Star2]: "./deathbyai.gg/games-assets/deathbyai/9bltnum6hx5_z9zgagh4_/models/StarrioCosmos_Star2.glb",
+        [oe.StarrioCosmos_Star3]: "./deathbyai.gg/games-assets/deathbyai/9bltnum6hx5_z9zgagh4_/models/StarrioCosmos_Star3.glb",
+        [oe.StarrioCosmos_Star4]: "./deathbyai.gg/games-assets/deathbyai/9bltnum6hx5_z9zgagh4_/models/StarrioCosmos_Star4.glb",
+        [oe.StarrioCosmos_Cage]: "./deathbyai.gg/games-assets/deathbyai/t24kzvhb9ambi4wqfte73/models/StarrioCosmos_Cage.glb"
     }
       , z0 = {
         [oe.AvatarA]: le.AvatarAIcon,
@@ -105881,32 +105881,32 @@ void main() {
             children: e
         })
     }
-      , wBe = "/deathbyai.gg/audios/music/DBAI_BonusRound.mp3"
-      , CBe = "/deathbyai.gg/audios/music/DBAI_LS_MainTheme_RadioVersion_LOOP.mp3"
-      , PBe = "/deathbyai.gg/audios/music/DBAI_LS_MainTheme_SurvivalOfTheDumbest_INTRO.mp3"
-      , LBe = "/deathbyai.gg/audios/music/DBAI_LS_MainTheme_SurvivalOfTheDumbest_LOOP.mp3"
-      , MBe = "/deathbyai.gg/audios/music/DBAI_LS_WritingRound.mp3"
-      , DBe = "/deathbyai.gg/audios/music/DBAI_MainThemeRadioVersion_INTRO.mp3"
-      , kBe = "/deathbyai.gg/audios/music/DBAI_MainThemeRadioVersion_LOOP.mp3"
-      , UBe = "/deathbyai.gg/audios/music/DBAI_MainTheme_INTRO.mp3"
-      , BBe = "/deathbyai.gg/audios/music/DBAI_MainTheme_LOOP.mp3"
-      , FBe = "/deathbyai.gg/audios/music/DBAI_Robot_VOICE.mp3"
-      , jBe = "/deathbyai.gg/audios/music/DBAI_WeAllLoseEventually_LOOP.mp3"
-      , HBe = "/deathbyai.gg/audios/music/DBAI_WritingRound.mp3"
-      , GBe = "/deathbyai.gg/audios/sfx/SFX_Button1.mp3"
-      , zBe = "/deathbyai.gg/audios/sfx/SFX_Button2.mp3"
-      , VBe = "/deathbyai.gg/audios/sfx/SFX_Glowing_Eyes.mp3"
-      , WBe = "/deathbyai.gg/audios/sfx/SFX_YourFateHasBeenSealed.mp3"
-      , $Be = "/deathbyai.gg/audios/sfx/YourGiftsHaveBeenWrapped.mp3"
-      , YBe = "/deathbyai.gg/audios/music/DBAI_Brotherhood_INTRO.mp3"
-      , qBe = "/deathbyai.gg/audios/music/DBAI_Brotherhood_LOOP.mp3"
-      , KBe = "/deathbyai.gg/audios/music/DeathByAI_PirateVersion_INTRO.mp3"
-      , XBe = "/deathbyai.gg/audios/music/DeathByAI_PirateVersion_LOOP.mp3"
-      , JBe = "/deathbyai.gg/audios/sfx/SFX_Level_Up.mp3"
-      , ZBe = "/deathbyai.gg/audios/sfx/SFX_Lootbox.mp3"
-      , QBe = "/deathbyai.gg/audios/sfx/ChristmasJudgingSFX.mp3"
-      , e5e = "/deathbyai.gg/games-assets/deathbyai/r086cdyi1h9179m8fzgjf/music/DeathBYAI_Space_Intro.mp3"
-      , t5e = "/deathbyai.gg/games-assets/deathbyai/r086cdyi1h9179m8fzgjf/music/DeathBYAI_Space_Loop.mp3"
+      , wBe = "./deathbyai.gg/audios/music/DBAI_BonusRound.mp3"
+      , CBe = "./deathbyai.gg/audios/music/DBAI_LS_MainTheme_RadioVersion_LOOP.mp3"
+      , PBe = "./deathbyai.gg/audios/music/DBAI_LS_MainTheme_SurvivalOfTheDumbest_INTRO.mp3"
+      , LBe = "./deathbyai.gg/audios/music/DBAI_LS_MainTheme_SurvivalOfTheDumbest_LOOP.mp3"
+      , MBe = "./deathbyai.gg/audios/music/DBAI_LS_WritingRound.mp3"
+      , DBe = "./deathbyai.gg/audios/music/DBAI_MainThemeRadioVersion_INTRO.mp3"
+      , kBe = "./deathbyai.gg/audios/music/DBAI_MainThemeRadioVersion_LOOP.mp3"
+      , UBe = "./deathbyai.gg/audios/music/DBAI_MainTheme_INTRO.mp3"
+      , BBe = "./deathbyai.gg/audios/music/DBAI_MainTheme_LOOP.mp3"
+      , FBe = "./deathbyai.gg/audios/music/DBAI_Robot_VOICE.mp3"
+      , jBe = "./deathbyai.gg/audios/music/DBAI_WeAllLoseEventually_LOOP.mp3"
+      , HBe = "./deathbyai.gg/audios/music/DBAI_WritingRound.mp3"
+      , GBe = "./deathbyai.gg/audios/sfx/SFX_Button1.mp3"
+      , zBe = "./deathbyai.gg/audios/sfx/SFX_Button2.mp3"
+      , VBe = "./deathbyai.gg/audios/sfx/SFX_Glowing_Eyes.mp3"
+      , WBe = "./deathbyai.gg/audios/sfx/SFX_YourFateHasBeenSealed.mp3"
+      , $Be = "./deathbyai.gg/audios/sfx/YourGiftsHaveBeenWrapped.mp3"
+      , YBe = "./deathbyai.gg/audios/music/DBAI_Brotherhood_INTRO.mp3"
+      , qBe = "./deathbyai.gg/audios/music/DBAI_Brotherhood_LOOP.mp3"
+      , KBe = "./deathbyai.gg/audios/music/DeathByAI_PirateVersion_INTRO.mp3"
+      , XBe = "./deathbyai.gg/audios/music/DeathByAI_PirateVersion_LOOP.mp3"
+      , JBe = "./deathbyai.gg/audios/sfx/SFX_Level_Up.mp3"
+      , ZBe = "./deathbyai.gg/audios/sfx/SFX_Lootbox.mp3"
+      , QBe = "./deathbyai.gg/audios/sfx/ChristmasJudgingSFX.mp3"
+      , e5e = "./deathbyai.gg/games-assets/deathbyai/r086cdyi1h9179m8fzgjf/music/DeathBYAI_Space_Intro.mp3"
+      , t5e = "./deathbyai.gg/games-assets/deathbyai/r086cdyi1h9179m8fzgjf/music/DeathBYAI_Space_Loop.mp3"
       , n5e = {
         MainThemeIntroAudio: UBe,
         MainThemeLoopAudio: BBe,
@@ -158308,7 +158308,7 @@ gl_FragColor.a = 1.0;
                                     className: "w-8 h-8 object-contain"
                                 })
                             }), g.jsx(be, {
-                                src: "/deathbyai.gg/iap/free-banana-guy-avatar.png",
+                                src: "./deathbyai.gg/iap/free-banana-guy-avatar.png",
                                 className: "w-[26rem] h-[26rem] object-contain"
                             }), g.jsxs(nt, {
                                 className: "absolute bottom-[24rem] -translate-y-4 landscape:bottom-[6.5rem] flex justify-center items-center gap-2 bg-[#FFC909] border-6 border-[#9840F3] shadow-[0px_6px_0px_0px_#732BBE] !rounded-2xl !landscape:rounded-3xl !text-black text-xl !px-4 !py-2 font-semibold !font-ibm-plex-mono",
